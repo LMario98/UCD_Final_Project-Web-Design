@@ -1,0 +1,211 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: url(Img/willian-justen-de-vasconcellos-KqpDuf1i83w-unsplash.jpg);
+  background-size: cover;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 13%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  border: 1px solid #ddd;
+  padding: 3%;
+  border-radius: 5px;
+  margin: 80px;
+  padding-right: 60px;
+  background: whitesmoke;
+  background-size: contain;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #0206e6;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#error-message {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-right: 0%;
+  margin-top: 10%;
+  margin-bottom: px;
+  background: transparent;
+  color: #dcdce2;
+  text-decoration: overline;
+  text-align: right;
+  text-transform: lowercase;
+}
+
+footer {
+  margin-top: 40%;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: dashed;
+}
+
+.Navbar {
+  gap: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: oblique;
+  width: 100%;
+}
+
+.Navbar li {
+  display: flex;
+}
+
+.Navbar li a {
+  display: flex;
+  color: #007bff;
+  margin-bottom: 1%;
+  font-size: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.Navbar li a:hover {
+  color: #227522;
+
+}
+
+.menu {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: #050538;
+  margin-top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#name {
+  margin-left: 80px;
+  color: #010104;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+  display: flex;
+  float: left;
+  margin-left: 40%;
+  background: #4e5ae2;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    font-size: 20px;
+    float: left;
+  }
+
+  body {
+    font-size: large;
+
+  }
+
+  ul.Navbar {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+
+  }
+
+  .title {
+    margin-top: 40px;
+  }
+
+  #login-form {
+    padding: 40px;
+    padding-right: 80px;
+  }
+
+  h2 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  section.contact-info {
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  footer {
+    margin-right: 40px;
+    text-align: center;
+    color: #0206e6;
+    background: #ccc;
+    background-position: left;
+  }
+
+}

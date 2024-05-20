@@ -1,0 +1,294 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Serie A</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+
+    }
+
+    body {
+      background: url(Img/zach-rowlandson-6dpQR0DgDbY-unsplash.jpg);
+      background-size: cover;
+      color: #010104;
+
+    }
+
+    a {
+      color: #007BFF;
+    }
+
+    .logo {
+      margin-left: 80px;
+    }
+
+    #name {
+      margin-left: 80px;
+      color: #010104;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #header {
+      background-color: #050538;
+      text-align: center;
+      margin: 10px 40% 1px 30%;
+      color: #ddd;
+      text-decoration: overline;
+
+    }
+
+    #title {
+      text-align: center;
+      margin-right: 30%;
+      background-color: #4e5ae2;
+      margin-left: 30%;
+      color: #130f09;
+    }
+
+    table {
+      color: hwb(0 0% 100%);
+      font-style: italic;
+      font-size: large;
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+
+    .container {
+      display: grid;
+      gap: 10px;
+      margin-top: 1%;
+
+    }
+
+    table {
+      border-collapse: separate;
+      background: #a8a8ce;
+    }
+
+    td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+
+    ul {
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-style: oblique;
+    }
+
+    ul li {
+      list-style: none;
+      margin-left: 62px;
+      font-size: 15px;
+    }
+
+    .menu {
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      background: #050538;
+      margin-top: 0;
+      width: 100%;
+      z-index: 999;
+    }
+
+    .Navbar li a:hover {
+      color: #227522;
+
+    }
+
+    .thead {
+      background-color: #d0d0d6;
+      text-decoration: underline;
+      color: rgb(98, 42, 42);
+    }
+
+    .tr {
+      background-size: contain;
+      text-decoration: underline;
+      color: #000000;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 90px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 30px;
+      padding: 10px;
+    }
+
+    .grid-item {
+      height: 100%;
+      background-color: #eee;
+      padding: 15px;
+      text-align: center;
+      border-radius: 5px;
+      margin: 0px 0px 1px;
+    }
+
+    img {
+      margin-top: 10px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .lautaro {
+      height: 100%;
+      background-color: #eee;
+      padding: 15px;
+      text-align: center;
+      border-radius: 5px;
+      margin: 0px 0px 1px;
+      color: #181178;
+      text-decoration: overline;
+    }
+
+
+    @media screen and (min-width: 320px) {
+
+      /* Stili per schermi con larghezza minima di 320px */
+      * {
+        font-size: 16px;
+      }
+
+      body {
+        font-size: 20px;
+      }
+
+      h1 {
+        font-size: 20px
+      }
+
+      .lautaro {
+        font-size: 38px;
+      }
+
+      #title {
+        display: flex;
+        float: center;
+        margin-right: 2%;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+
+      }
+
+    }
+
+    @media screen and (min-width: 1440px) {
+      body {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      .lautaro {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 15px;
+
+      }
+    }
+  </style>
+ </head>
+ <body>
+  <div>
+   <div class="menu">
+    <ul class="Navbar">
+     <li><a href="Index.html">Home</a></li>
+     <li><a href="table1.html">Season</a></li>
+     <li><a href="contact.html">Contact</a></li>
+     <li><a href="https://www.inter.it/en">Fc Inter</a></li>
+    </ul>
+   </div>
+   <br>
+   <br>
+   <br>
+   <header>
+    <img src="Img/internazionale-milano-logo.gif" width="70px" alt="logo" class="logo">
+    <h2 id="name">InterMilan</h2>
+   </header>
+   <h1 id="title">Football Club</h1>
+   <div class="container">
+    <table>
+     <thead class="thead">
+      <tr>
+       <td>Competition</td>
+       <td>Year of winning.</td>
+       <td>Teams</td>
+       <td>Result</td>
+       <td>Statistics</td>
+      </tr>
+     </thead>
+     <tbody>
+      <tr class="tr">
+       <td>Serie A</td>
+       <td>2023-2024.</td>
+       <td>InterMilan</td>
+       <td>Inter (20º Title)</td>
+       <td>Top scorer Flag of Argentina Lautaro Martínez (23) <br>
+         -Matches played 339 <br>
+         -Goals scored 878 (2.59 per match)</td>
+      </tr>
+      <tr>
+       <td>Coppa Italia</td>
+       <td>2022-2023</td>
+       <td>InterMilan</td>
+       <td>Inter (9º Title)</td>
+       <td>Top scorer Flag of Morocco Walid Cheddira (5) <br>
+         -45 matches played <br>
+         -Matches scored 143 (3.18 per match) <br></td>
+      </tr>
+      <tr>
+       <td>Serie A</td>
+       <td>2020-2021</td>
+       <td>InterMilan</td>
+       <td>Inter (19º Title)</td>
+       <td>-Best Player Flag of Belgium Romelu Lukaku[1] <br>
+         -Top scorer Portugal flag Cristiano Ronaldo (29) <br>
+         -Best goalkeeper Flag of Italy Gianluigi Donnarumma[1] <br>
+         -Matches played 380 <br></td>
+      </tr>
+     </tbody>
+    </table>
+    <div class="grid-container">
+     <div class="lautaro">
+      Lautaro Martinez <img src="Img/janice-kwong-yRk32YsLDg4-unsplash.jpg" width="220px" height="300px" alt="photo-lautaro">
+      <h2>captain</h2>
+      <p>Fresh from securing the Scudetto and their second star, Inter are ready to play in front of their home fans. However, Torino are aiming to spoil the party</p>
+     </div>
+     <div class="lautaro">
+      Home Kit <img src="Img/Home kit.webp" width="220px" height="200px" alt="Home-kit">
+      <h2>T-Shirt</h2>
+      <h4>€54.00</h4><a href="https://store.inter.it/it-it/im-nike-maglia-home-match-2023%2F24-uomo-23N001M0103.html">Shop Now</a>
+      <p>In the 2023/24 Home Match shirt the iconic black and blue stripes feature a digital mosaic pattern that celebrates the classic fit and modern architecture of the ancient city. The internal motif commemorates the bond between Inter and the city we call home.</p>
+     </div>
+     <div class="lautaro">
+      Away Kit <img src="Img/Away kit.webp" width="220px" height="200px" alt="Away-kit">
+      <h2>T-shirt</h2>
+      <h4>€45.00</h4><a href="https://store.inter.it/it-it/im-nike-maglia-away-match-2023%2F24-uomo-23N001M0201.html">Shop Now</a>
+      <p>The 2023/24 Away Match shirt celebrates the 60th anniversary of the first triumph in the European Cup which took us to the top of Europe</p>
+     </div>
+     <div class="lautaro">
+      Third-kit <img src="Img/Third.webp" width="220px" height="200px" alt="Third-kit">
+      <h2>T-shirt</h2>
+      <h4>€25.00</h4><a href="https://store.inter.it/it-it/im-nike-maglia-gara-third-stadium-2023%2F24-uomo-23N001M1608.html">Shop Now</a>
+      <p>The new INTER 2023/24 orange Third shirt with gray collar is inspired by that of the 2000/2001 season,</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
